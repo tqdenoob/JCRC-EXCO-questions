@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     min-height: 100vh;
     display: flex;
@@ -25,7 +25,7 @@ header {
 }
 
 header h1 {
-    color: #1a237e; /* Dark blue */
+    color: #00205C; /* Dark blue */
     font-size: 2.5rem;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
@@ -41,7 +41,7 @@ header h1::after {
     transform: translateX(-50%);
     width: 100px;
     height: 3px;
-    background: #b71c1c; /* Dark red */
+    background: #CE0E2D; /* Dark red */
     border-radius: 2px;
 }
 
@@ -58,7 +58,7 @@ header h1::after {
     transition: transform 0.6s ease;
     transform-style: preserve-3d;
     cursor: pointer;
-    border: 2px solid #1a237e; /* Dark blue border */
+    border: 2px solid #00205C; /* Dark blue border */
 }
 
 .flashcard:hover {
@@ -71,7 +71,7 @@ header h1::after {
 }
 
 .card-content h2 {
-    color: #1a237e; /* Dark blue */
+    color: #00205C; /* Dark blue */
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -89,7 +89,7 @@ header h1::after {
 }
 
 .control-btn {
-    background: #1a237e; /* Dark blue */
+    background: #00205C; /* Dark blue */
     color: white;
     border: none;
     padding: 0.8rem 1.5rem;
@@ -101,7 +101,7 @@ header h1::after {
 }
 
 .control-btn:hover {
-    background: #b71c1c; /* Dark red */
+    background: #CE0E2D; /* Dark red */
     transform: translateY(-2px);
 }
 
